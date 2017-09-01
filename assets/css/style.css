@@ -7,155 +7,188 @@ html {
 }
 
 body {
-	background: url(../images/background.jpeg);
-	background-attachment: fixed;
+    background: url(../images/background.jpeg);
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .poem h1 {
-	font-weight: bold;
-	font-family: 'Paytone One', serif;
+    font-weight: bold;
+    font-family: 'Paytone One', serif;
 }
 
 .center-block {
-	float: none !important;
+    float: none !important;
 }
 
 .poem {
-	padding: 50px;
+    padding: 50px;
 }
 
 #sidebar {
-	padding: 50px 25px 50px 25px;
-	background: white;
-	border-radius: 1px;
+    padding: 50px 25px 50px 25px;
+    background: white;
+    border-radius: 1px;
 }
 
 #sidebar h3 {
-	font-size: 18px;
-	font-weight: bold;
-	font-family: 'Roboto Slab', serif;
-	padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 5px;
 }
 
 blockquote {
-	font-family: 'Titillium Web', serif;
+    font-family: 'Titillium Web', serif;
 }
 
 #main {
-	background: white;
-	padding: 25px 50px;
-	border-radius: 1px;
+    background: white;
+    padding: 25px 50px;
+    border-radius: 1px;
 }
 
 #pagination {
-	margin-top: 15px;
-	background: white;
-	padding: 25px 50px;
-	border-radius: 1px;
-	text-align: center;
+    margin-top: 15px;
+    background: white;
+    padding: 25px 50px;
+    border-radius: 1px;
+    text-align: center;
 }
 
 #comments {
-	margin-top: 15px;
-	background: white;
-	padding: 25px 50px;
-	border-radius: 1px;
+    margin-top: 15px;
+    background: white;
+    padding: 15px 25px;
+    border-radius: 1px;
+    margin-bottom: 10px;
 }
 
-#comments h3 {	
-	font-family: 'Paytone One', serif;
-	font-weight: bold;
-	letter-spacing: 0.8px;
+#comments h3 {
+    font-family: 'Paytone One', serif;
+    font-weight: bold;
+    letter-spacing: 0.8px;
 }
 
-.comment {	
-	padding: 10px 0 10px 0;
-	border-bottom: 1px #DEDEDE dotted;
+.comment {
+    padding: 10px 0 10px 0;
+    border-bottom: 1px #DEDEDE dotted;
 }
 
-.comment h4 {	
-	font-family: 'Quicksand', serif;
-	font-weight: bold;
-	padding: 0;
-	margin: 0;
+.comment h4 {
+    font-family: 'Quicksand', serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
 }
 
-.comment span {	
-	font-family: 'Roboto Slab', serif;
-	font-size: 80%;
+.comment span {
+    font-family: 'Roboto Slab', serif;
+    font-size: 80%;
 }
 
-.comment p {	
-	font-family: 'Roboto Slab', serif;
-	font-size: 90%;
-	padding-top: 5px;
+.comment p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 90%;
+    padding-top: 5px;
 }
 
 #main p {
-	color: #1B1B1B;
-	font-size: 140%;
-	font-weight: bold;
-	font-family: 'Quicksand', serif;
+    color: #1B1B1B;
+    font-size: 140%;
+    font-weight: bold;
+    font-family: 'Quicksand', serif;
 }
 
 #author {
-	display: block;
-	padding-top: 30px;
-	font-weight: bold;
-	font-family: 'Roboto Slab', serif;
-	font-size: 130%;
-	color: #2B37F8;
+    display: block;
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 130%;
+    color: #2B37F8;
 }
 
 .btn {
-	font-family: 'Titillium Web', serif;		
-	padding: 15px 25px 15px 25px;
-	background: black;
-	color: white;
+    font-family: 'Titillium Web', serif;
+    padding: 15px 25px 15px 25px;
+    background: black;
+    color: white;
 }
 
 .btn-blue {
-	background: #2B37F8;
-	color: white !important;
+    background: #2B37F8;
+    color: white !important;
 }
 
 .footer {
-	background: #22232D;
-	color: white;
-	padding: 40px 20px 40px 20px;
-	text-align: center;
-	font-family: 'Titillium Web', serif;
-	letter-spacing: 1px;	
+    background: #22232D;
+    color: white;
+    padding: 40px 20px 40px 20px;
+    text-align: center;
+    font-family: 'Titillium Web', serif;
+    letter-spacing: 1px;
 }
 
 hr {
-	border-color: #DEDEDE;
+    border-color: #DEDEDE;
 }
 
 #poem-list li {
-	margin-bottom: 2px; !important;
+    margin-bottom: 2px;
+!important;
 }
 
 #poem-list li, #poem-list a {
-	color: #2B37F8 !important;
-	font-family: 'Titillium Web', serif;
-	font-weight: bold;
-	font-size: 105%;
+    color: #2B37F8 !important;
+    font-family: 'Titillium Web', serif;
+    font-weight: bold;
+    font-size: 105%;
 }
 
 a {
-	text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 nav {
-	background: #22232D;
-	color: white;
-	padding: 40px 20px 40px 20px;
-	text-align: center;
-	font-family: 'Paytone One', serif;
-	font-size: 350%;
-	letter-spacing: 1px;	
+    background: #22232D;
+    color: white;
+    padding: 40px 20px 40px 20px;
+    text-align: center;
+    font-family: 'Paytone One', serif;
+    font-size: 350%;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 426px) {
+
+    nav {
+        padding: 20px 10px 20px 10px;
+        font-size: 200%;
+    }
+
+    .poem h1 {
+        font-size: 220%;
+    }
+
+    #main {
+        background: white;
+        padding: 15px 15px;
+        border-radius: 1px;
+    }
+
+    .poem {
+        padding: 5px;
+    }
+
+    #main p {
+        font-size: 120%;
+    }
+
+    #pagination a {
+        margin-bottom: 5px;
+    }
+
 }
