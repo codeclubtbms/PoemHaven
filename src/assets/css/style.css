@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone+One|Roboto+Slab|Titillium+Web|Quicksand');
+
+html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+
+body {
+	background: url(../images/background.jpeg);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.poem h1 {
+	font-weight: bold;
+	font-family: 'Paytone One', serif;
+}
+
+.center-block {
+	float: none !important;
+}
+
+.poem {
+	padding: 50px;
+}
+
+#sidebar {
+	padding: 50px 25px 50px 25px;
+	background: white;
+	border-radius: 1px;
+}
+
+#sidebar h3 {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+	padding-bottom: 5px;
+}
+
+blockquote {
+	font-family: 'Titillium Web', serif;
+}
+
+#main {
+	background: white;
+	padding: 25px 50px;
+	border-radius: 1px;
+}
+
+#pagination {
+	margin-top: 15px;
+	background: white;
+	padding: 25px 50px;
+	border-radius: 1px;
+	text-align: center;
+}
+
+#comments {
+	margin-top: 15px;
+	background: white;
+	padding: 25px 50px;
+	border-radius: 1px;
+}
+
+#comments h3 {	
+	font-family: 'Paytone One', serif;
+	font-weight: bold;
+	letter-spacing: 0.8px;
+}
+
+.comment {	
+	padding: 10px 0 10px 0;
+	border-bottom: 1px #DEDEDE dotted;
+}
+
+.comment h4 {	
+	font-family: 'Quicksand', serif;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+
+.comment span {	
+	font-family: 'Roboto Slab', serif;
+	font-size: 80%;
+}
+
+.comment p {	
+	font-family: 'Roboto Slab', serif;
+	font-size: 90%;
+	padding-top: 5px;
+}
+
+#main p {
+	color: #1B1B1B;
+	font-size: 140%;
+	font-weight: bold;
+	font-family: 'Quicksand', serif;
+}
+
+#author {
+	display: block;
+	padding-top: 30px;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+	font-size: 130%;
+	color: #2B37F8;
+}
+
+.btn {
+	font-family: 'Titillium Web', serif;		
+	padding: 15px 25px 15px 25px;
+	background: black;
+	color: white;
+}
+
+.btn-blue {
+	background: #2B37F8;
+	color: white !important;
+}
+
+.footer {
+	background: #22232D;
+	color: white;
+	padding: 40px 20px 40px 20px;
+	text-align: center;
+	font-family: 'Titillium Web', serif;
+	letter-spacing: 1px;	
+}
+
+hr {
+	border-color: #DEDEDE;
+}
+
+#poem-list li {
+	margin-bottom: 2px; !important;
+}
+
+#poem-list li, #poem-list a {
+	color: #2B37F8 !important;
+	font-family: 'Titillium Web', serif;
+	font-weight: bold;
+	font-size: 105%;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+nav {
+	background: #22232D;
+	color: white;
+	padding: 40px 20px 40px 20px;
+	text-align: center;
+	font-family: 'Paytone One', serif;
+	font-size: 350%;
+	letter-spacing: 1px;	
+}
